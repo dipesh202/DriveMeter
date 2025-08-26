@@ -1,0 +1,54 @@
+<svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="hatchGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#3498db;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2980b9;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="windowGradient3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#85c1e9;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#5dade2;stop-opacity:0.6" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Shadow -->
+  <ellipse cx="150" cy="185" rx="110" ry="8" fill="#000000" opacity="0.2"/>
+  
+  <!-- Car Body (Hatchback Style) -->
+  <path d="M55 125 L225 125 L235 135 L235 150 L225 160 L55 160 L45 150 L45 135 Z" fill="url(#hatchGradient)" stroke="#1f618d" stroke-width="1"/>
+  
+  <!-- Car Roof -->
+  <path d="M75 125 Q85 90 150 90 Q195 95 205 125" fill="url(#hatchGradient)" stroke="#1f618d" stroke-width="1"/>
+  
+  <!-- Windows -->
+  <path d="M80 120 Q88 100 150 100 Q190 103 200 120" fill="url(#windowGradient3)" stroke="#3498db" stroke-width="1"/>
+  
+  <!-- Window Divider -->
+  <line x1="150" y1="100" x2="150" y2="120" stroke="#2c3e50" stroke-width="1.5"/>
+  
+  <!-- Wheels -->
+  <circle cx="90" cy="160" r="16" fill="#2c3e50"/>
+  <circle cx="90" cy="160" r="11" fill="#34495e"/>
+  <circle cx="90" cy="160" r="6" fill="#7f8c8d"/>
+  
+  <circle cx="190" cy="160" r="16" fill="#2c3e50"/>
+  <circle cx="190" cy="160" r="11" fill="#34495e"/>
+  <circle cx="190" cy="160" r="6" fill="#7f8c8d"/>
+  
+  <!-- Headlights -->
+  <ellipse cx="230" cy="140" rx="5" ry="7" fill="#f8c471" stroke="#f39c12" stroke-width="1"/>
+  
+  <!-- Grille -->
+  <rect x="225" y="135" width="10" height="15" fill="#1b2631" rx="2"/>
+  <line x1="227" y1="138" x2="227" y2="147" stroke="#7f8c8d" stroke-width="0.5"/>
+  <line x1="230" y1="138" x2="230" y2="147" stroke="#7f8c8d" stroke-width="0.5"/>
+  <line x1="233" y1="138" x2="233" y2="147" stroke="#7f8c8d" stroke-width="0.5"/>
+  
+  <!-- Door Handle -->
+  <rect x="125" y="140" width="5" height="2" rx="1" fill="#95a5a6"/>
+  
+  <!-- Side Mirror -->
+  <ellipse cx="70" cy="115" rx="3" ry="2" fill="#34495e"/>
+  
+  <!-- Rear Spoiler -->
+  <rect x="45" y="122" width="15" height="3" rx="1" fill="#1f618d"/>
+</svg>

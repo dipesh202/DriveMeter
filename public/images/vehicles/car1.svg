@@ -1,0 +1,53 @@
+<svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="carGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e74c3c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c0392b;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="windowGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#85c1e9;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#5dade2;stop-opacity:0.6" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Shadow -->
+  <ellipse cx="150" cy="185" rx="120" ry="8" fill="#000000" opacity="0.2"/>
+  
+  <!-- Car Body -->
+  <path d="M60 130 L240 130 L250 140 L250 155 L240 165 L60 165 L50 155 L50 140 Z" fill="url(#carGradient)" stroke="#a93226" stroke-width="1"/>
+  
+  <!-- Car Roof -->
+  <path d="M85 130 Q95 85 150 85 Q205 85 215 130" fill="url(#carGradient)" stroke="#a93226" stroke-width="1"/>
+  
+  <!-- Windows -->
+  <path d="M90 125 Q98 95 150 95 Q202 95 210 125" fill="url(#windowGradient)" stroke="#3498db" stroke-width="1"/>
+  
+  <!-- Window Dividers -->
+  <line x1="150" y1="95" x2="150" y2="125" stroke="#2c3e50" stroke-width="2"/>
+  
+  <!-- Wheels -->
+  <circle cx="90" cy="165" r="18" fill="#2c3e50"/>
+  <circle cx="90" cy="165" r="12" fill="#34495e"/>
+  <circle cx="90" cy="165" r="6" fill="#7f8c8d"/>
+  
+  <circle cx="210" cy="165" r="18" fill="#2c3e50"/>
+  <circle cx="210" cy="165" r="12" fill="#34495e"/>
+  <circle cx="210" cy="165" r="6" fill="#7f8c8d"/>
+  
+  <!-- Headlights -->
+  <ellipse cx="245" cy="140" rx="6" ry="8" fill="#f8c471" stroke="#f39c12" stroke-width="1"/>
+  <ellipse cx="245" cy="150" rx="6" ry="8" fill="#f8c471" stroke="#f39c12" stroke-width="1"/>
+  
+  <!-- Grille -->
+  <rect x="240" y="135" width="10" height="20" fill="#34495e" rx="2"/>
+  <line x1="242" y1="138" x2="242" y2="152" stroke="#7f8c8d" stroke-width="0.5"/>
+  <line x1="245" y1="138" x2="245" y2="152" stroke="#7f8c8d" stroke-width="0.5"/>
+  <line x1="248" y1="138" x2="248" y2="152" stroke="#7f8c8d" stroke-width="0.5"/>
+  
+  <!-- Door Handles -->
+  <rect x="110" y="140" width="6" height="3" rx="1" fill="#95a5a6"/>
+  <rect x="180" y="140" width="6" height="3" rx="1" fill="#95a5a6"/>
+  
+  <!-- Side Mirror -->
+  <ellipse cx="80" cy="120" rx="4" ry="3" fill="#34495e"/>
+</svg>

@@ -1,0 +1,36 @@
+<svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Motorcycle Body -->
+  <ellipse cx="150" cy="120" rx="60" ry="15" fill="#e67e22" stroke="#d35400" stroke-width="2"/>
+  
+  <!-- Seat -->
+  <ellipse cx="130" cy="115" rx="25" ry="8" fill="#8b4513" stroke="#7d4013" stroke-width="1"/>
+  
+  <!-- Handlebars -->
+  <line x1="120" y1="110" x2="100" y2="100" stroke="#2c3e50" stroke-width="4"/>
+  <line x1="95" y1="100" x2="105" y2="100" stroke="#2c3e50" stroke-width="3"/>
+  
+  <!-- Front Fork -->
+  <line x1="110" y1="110" x2="110" y2="140" stroke="#7f8c8d" stroke-width="6"/>
+  
+  <!-- Rear Suspension -->
+  <line x1="180" y1="120" x2="200" y2="140" stroke="#7f8c8d" stroke-width="4"/>
+  
+  <!-- Wheels -->
+  <circle cx="110" cy="150" r="25" fill="#34495e" stroke="#2c3e50" stroke-width="3"/>
+  <circle cx="110" cy="150" r="18" fill="#95a5a6" stroke="#7f8c8d" stroke-width="2"/>
+  <circle cx="110" cy="150" r="8" fill="#2c3e50"/>
+  
+  <circle cx="200" cy="150" r="25" fill="#34495e" stroke="#2c3e50" stroke-width="3"/>
+  <circle cx="200" cy="150" r="18" fill="#95a5a6" stroke="#7f8c8d" stroke-width="2"/>
+  <circle cx="200" cy="150" r="8" fill="#2c3e50"/>
+  
+  <!-- Headlight -->
+  <circle cx="95" cy="105" r="8" fill="#f1c40f" stroke="#f39c12" stroke-width="2"/>
+  
+  <!-- Exhaust -->
+  <ellipse cx="220" cy="135" rx="15" ry="5" fill="#7f8c8d" stroke="#6c7b7d" stroke-width="1"/>
+  
+  <!-- License Plate -->
+  <rect x="130" y="140" width="30" height="8" rx="2" fill="#ffffff" stroke="#bdc3c7" stroke-width="1"/>
+  <text x="145" y="146" font-family="Arial" font-size="6" text-anchor="middle" fill="#2c3e50">BIKE123</text>
+</svg>
